@@ -1,0 +1,91 @@
+<!-- GITHUB
+Some of the projects we will work on in class will require the use of GitHub to save
+and load the changes we make each day. Git is a very powerful tool, and students
+will use GitHub to learn industry standard best practices for building portfolios and
+working on projects collaboratively.
+Please create a GitHub account for class at https://github.com/
+● GitHub accounts are free to create and use.
+● GitHub will require a valid email address which you will use to verify the new
+account.
+○ Please check your email after creating the account and use the link
+GitHub sends you to verify the account. This will activate the account so
+it can be used in class.
+● Please bring your username and password to class as a backup in case you
+forget your login credentials.
+-->
+<html lang="en">
+
+<head>
+  <!-- Required meta tags for Bootstrap and JQuery -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS imports -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/ui-lightness/jquery-ui.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.css">
+
+  <!-- JS Imports -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.js"></script>
+  <!-- Rename the JQueryUI 'tooltip' and 'button' classes to 'uitooltip' and 'uibutton' so that they won't conflict with Bootstrap's 'tooltip' and 'button' classes. -->
+  <script>
+    $.widget.bridge('uitooltip', $.ui.tooltip);
+    $.widget.bridge('uibutton', $.ui.button);
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h2>First Slide</h2>
+    <div id="joke-Carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="carousal-item active">
+          <div class="carousel-caption">
+            <p>First Carousal Slide</p>
+          </div>
+          <div class="carousal-item">
+            <div class="flex-container">
+              <h1 class="joke-text">What do you call lazy cows?</h1>
+              <img src="https://salesqualia.com/wp-content/uploads/2015/04/cow.png" alt="cow" title="VACACIONES!!"
+            </div>
+          </div>
+
+          
+          <div class="carousel-item">
+            <div class="flex-container">
+              <h1 class="joke-text">Everybody dance</h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="flex-container">
+              <h1 class="joke-text">Hala Barca</h1>
+              <img src="https://yt3.googleusercontent.com/WwX1G6HXgGi4A7MUbHroRtxH3DdISGCzl9eQnb8Nh98mIgoNP6Y-ASYUsBhdcjbqZu0AtK-W=s900-c-k-c0x00ffffff-no-rj" alt="cow" title="Barca"
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#joke-Carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#joke-Carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">N</span>
+</body>
+
+</html>
